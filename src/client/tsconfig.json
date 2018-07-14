@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        // Needed for project references.
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+
+        // Other options...
+        "outDir": "../../lib/client",
+        "strict": true, "module": "esnext", "moduleResolution": "node",
+    },
+    "references": [
+        { "path": "../shared" }
+    ]
+}
